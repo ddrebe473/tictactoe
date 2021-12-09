@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tictactoe.css" />
+    <title>Document</title>
+  </head>
+  <body style="padding: 0 0 0 0; margin: 0 0 0 0">
+    <div id="tictactoeholder">
+      <div class="tictactoe">
+        <div id="tictactoe_2" onclick="selectsquare('2')">
+          <p id="ind2"></p>
+        </div>
+        <div id="tictactoe_3" onclick="selectsquare('3')">
+          <p id="ind3"></p>
+        </div>
+        <div id="tictactoe_4" onclick="selectsquare('4')">
+          <p id="ind4"></p>
+        </div>
+        <div id="tictactoe_5" onclick="selectsquare('5')">
+          <p id="ind5"></p>
+        </div>
+        <div id="tictactoe_6" onclick="selectsquare('6')">
+          <p id="ind6"></p>
+        </div>
+        <div id="tictactoe_7" onclick="selectsquare('7')">
+          <p id="ind7"></p>
+        </div>
+        <div id="tictactoe_8" onclick="selectsquare('8')">
+          <p id="ind8"></p>
+        </div>
+        <div id="tictactoe_9" onclick="selectsquare('9')">
+          <p id="ind9"></p>
+        </div>
+        <div id="tictactoe_10" onclick="selectsquare('10')">
+          <p id="ind10"></p>
+        </div>
+      </div>
+    </div>
+
+    <p id="winindicator"></p>
+
+    <p id="Your_turn">It is player 1 (X) turn</p>
+
+    <p id="Your_score">Player 1 wins: 0, Player 2 wins: 0</p>
+    <button id="Reset_button" onClick="resetgame()">Reset</button>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
